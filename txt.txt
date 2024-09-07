@@ -1,0 +1,26 @@
+API Endpoints Overview
+Shops:
+
+POST /shops: Create a new shop.
+GET /shops: Retrieve all shops.
+GET /shops/:id: Retrieve a specific shop by ID.
+PUT /shops/:id: Update a specific shop by ID.
+DELETE /shops/:id: Delete a specific shop by ID.
+
+
+Items:
+
+POST /shops/:shopId/items: Create a new item for a specific shop.
+GET /shops/:shopId/items: Retrieve all items for a specific shop.
+GET /items/:id: Retrieve a specific item by ID.
+PUT /items/:id: Update a specific item by ID.
+DELETE /items/:id: Delete a specific item by ID.
+
+
+Instructions to Run:
+
+Save the file with a name, e.g., app.js.
+Run npm init -y in the same directory to create a package.json file.
+Install Express by running npm install express.
+Start the server by running node app.js.
+Use tools like Postman or cURL to test the API.
