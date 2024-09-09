@@ -1,3 +1,9 @@
+Please Create me a CRUD API for shop Items and shops in Express and JavaScript. Please have everything in a single file and just store data in memory
+ChatGPT said:
+ChatGPT
+Here's a simple CRUD API using Express and JavaScript that manages shops and their items. This implementation stores the data in memory, so it will reset every time the server restarts.
+
+
 API Endpoints Overview
 Shops:
 
